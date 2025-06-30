@@ -3,7 +3,7 @@ import os
 import threading
 import time
 
-SERVER_IP = "192.168.1.5"  # ← غيّره إلى IP جهاز الخادم (الكمبيوتر)
+SERVER_IP = "192.168.1.100"  # ← غيّره إلى IP جهاز الخادم (الكمبيوتر)
 SERVER_PORT = 12345
 
 def list_all_files(base_path="/sdcard"):
